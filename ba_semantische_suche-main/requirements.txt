@@ -1,0 +1,14 @@
+jsonpickle==3.0.1
+pickleshare==0.7.5
+python-Levenshtein==0.21.1
+Levenshtein==0.21.1
+numpy==1.24.3
+rdflib==7.0.0
+rdflib-sqlalchemy==0.5.4
+tqdm==4.65.0
+gensim==4.3.1
+nltk==3.8.1
+regex==2021.11.10
+networkx==3.1
+matplotlib==3.7.1
+matplotlib-inline==0.1.6

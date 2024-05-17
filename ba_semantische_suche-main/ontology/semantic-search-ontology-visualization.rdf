@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns2="urn:semantic_search:Extraction:3081-"
+   xmlns:ns3="urn:semantic_search:Extraction:2147-"
+   xmlns:ns4="urn:semantic_search:publications:"
+   xmlns:ns5="urn:semantic_search:authors:"
+   xmlns:ns6="urn:semantic_search:competencies:"
+   xmlns:ns7="urn:semantic_search:"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="urn:semantic_search:Competency:modeqs">
+    <rdf:type rdf:resource="urn:semantic_search:Competency"/>
+    <ns6:name>modeqs</ns6:name>
+    <ns2:modeqs-0.9341476020135298 rdf:resource="urn:semantic_search:Publication:3081"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Publication:3081">
+    <rdf:type rdf:resource="urn:semantic_search:Publication"/>
+    <ns4:title>Flag &amp; Check - Data Access with Monadically Defined Queries (Extended Technical Report)</ns4:title>
+    <ns4:year>2013</ns4:year>
+    <ns7:Written_by rdf:resource="urn:semantic_search:Author:2720"/>
+    <ns7:Written_by rdf:resource="urn:semantic_search:Author:2721"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Competency:query">
+    <rdf:type rdf:resource="urn:semantic_search:Competency"/>
+    <ns6:name>query</ns6:name>
+    <ns2:query-1.0 rdf:resource="urn:semantic_search:Publication:3081"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Competency:tractable">
+    <rdf:type rdf:resource="urn:semantic_search:Competency"/>
+    <ns6:name>tractable</ns6:name>
+    <ns3:tractable-1 rdf:resource="urn:semantic_search:Publication:2147"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Competency:decidable">
+    <rdf:type rdf:resource="urn:semantic_search:Competency"/>
+    <ns6:name>decidable</ns6:name>
+    <ns2:decidable-0.9481185885195357 rdf:resource="urn:semantic_search:Publication:3081"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Author:2720">
+    <rdf:type rdf:resource="urn:semantic_search:Author"/>
+    <ns5:firstName>Markus</ns5:firstName>
+    <ns5:lastName>Krötzsch</ns5:lastName>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Publication:2147">
+    <rdf:type rdf:resource="urn:semantic_search:Publication"/>
+    <ns4:title>Expressive Tractable Description Logics based on SROIQ Rules</ns4:title>
+    <ns4:year>2008</ns4:year>
+    <ns7:Written_by rdf:resource="urn:semantic_search:Author:2720"/>
+    <ns7:Written_by rdf:resource="urn:semantic_search:Author:2721"/>
+    <ns7:Written_by rdf:resource="urn:semantic_search:Author:2722"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Author:2721">
+    <rdf:type rdf:resource="urn:semantic_search:Author"/>
+    <ns5:firstName>Sebastian</ns5:firstName>
+    <ns5:lastName>Rudolph</ns5:lastName>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Competency:flag">
+    <rdf:type rdf:resource="urn:semantic_search:Competency"/>
+    <ns6:name>flag</ns6:name>
+    <ns2:flag-1 rdf:resource="urn:semantic_search:Publication:3081"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Author:2722">
+    <rdf:type rdf:resource="urn:semantic_search:Author"/>
+    <ns5:firstName>Pascal</ns5:firstName>
+    <ns5:lastName>Hitzler</ns5:lastName>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Competency:dl">
+    <rdf:type rdf:resource="urn:semantic_search:Competency"/>
+    <ns6:name>dl</ns6:name>
+    <ns3:dl-0.7082444819171607 rdf:resource="urn:semantic_search:Publication:2147"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Competency:dl_rule">
+    <rdf:type rdf:resource="urn:semantic_search:Competency"/>
+    <ns6:name>dl_rule</ns6:name>
+    <ns3:dl_rule-1.0 rdf:resource="urn:semantic_search:Publication:2147"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:semantic_search:Competency:sroiq">
+    <rdf:type rdf:resource="urn:semantic_search:Competency"/>
+    <ns6:name>sroiq</ns6:name>
+    <ns3:sroiq-0.5253815031581099 rdf:resource="urn:semantic_search:Publication:2147"/>
+  </rdf:Description>
+</rdf:RDF>
